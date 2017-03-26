@@ -1,0 +1,64 @@
+{
+  "name": "sails-hook-sluggable",
+  "version": "0.1.4",
+  "description": "Easy to create unique slugs for your Waterline models in Sails",
+  "main": "libs/index.js",
+  "scripts": {
+     "test": "mocha test/bootstrap.test.js test/unit/*.test.js test/unit/**/*.test.js --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayontulip/sails-hook-sluggable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayontulip/sails-hook-sluggable/issues"
+  },
+  "keywords": [
+    "Sails",
+    "slugs",
+    "multiFieldslugs",
+    "multi Field slug",
+    "unique slugs",
+    "sluggable",
+    "node.js"
+  ],
+  "author": {
+    "name": "The Catalyst Team",
+    "email": "ayon@thecatalystindia.in",
+    "url": "http://www.thecatalystindia.in/our-team"
+  },
+  "contributors": [
+    {
+      "name": "The Catalyst Team",
+      "email": "ayon@thecatalystindia.in",
+      "url": "https://github.com/ayontulip"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Ayon Saha",
+      "email": "ayon@thecatalystindia.in"
+    }
+  ],
+  "license": "ISC",
+  "sails": {
+    "isHook": true
+  },
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.2.1",
+    "babel-preset-es2015": "^6.1.18",
+    "mocha": "^3.1.2",
+    "sails": "^0.12.7",
+    "sails-disk": "^0.10.10",
+    "should": "^11.1.1"
+  },
+  "dependencies": {
+    "lodash": "^4.16.4",
+    "node-gyp": "^3.4.0",
+    "rebuild": "^0.1.2",
+    "require-all": "^2.0.0",
+    "slug": "^0.9.1",
+    "node-uuid": "^1.4.7"
+  }
+}
