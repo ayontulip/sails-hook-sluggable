@@ -1,6 +1,7 @@
 # Sails unique slugs
 
 
+
 Easy to create unique slugs for your Waterline models in Sails
 
 ## Installation

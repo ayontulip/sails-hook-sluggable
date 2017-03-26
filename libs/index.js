@@ -140,13 +140,13 @@ function SlugsHook(sails) {
             };
           })(model.beforeCreate, attr);
 
-          /*delete attr.from;
-          delete attr.defaultField;
-          delete attr.defaultValue;
-          delete attr.multiField;
-          delete attr.remove;
-          delete attr.separator;
-          delete attr.lower;*/
+            /*delete attr.from;
+            delete attr.defaultField;
+            delete attr.defaultValue;
+            delete attr.multiField;
+            delete attr.remove;
+            delete attr.separator;
+            delete attr.lower;*/
         }
       });
     });
